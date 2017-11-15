@@ -42,10 +42,6 @@ li.menu-item a {
 
 
 /* Utility Classes */
-.bg-white {
-  background-color: #fff;
-}
-
 .txt-left {
   text-align: left;
 }
@@ -54,14 +50,13 @@ li.menu-item a {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .full-width {
   width: 100%;
 }
-
-.marg-left {
-  margin-left: 15px;
-}
-
 
 
 /* DESKTOP CSS STYLES */

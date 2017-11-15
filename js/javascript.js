@@ -15,3 +15,7 @@ $(window).resize(function(){
     $('.menu').hide();
   }
 });
+
+////////////////////
+//  POP UP MODALS //
+////////////////////
