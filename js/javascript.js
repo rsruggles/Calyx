@@ -19,3 +19,16 @@ $(window).resize(function(){
 ////////////////////
 //  POP UP MODALS //
 ////////////////////
+function mdlToggle () {
+  event.stopPropagation();
+  $("#mdlCurtain").fadeToggle("slow", "linear");
+}
+$("#mdlOpen").click(function() {
+  mdlToggle();
+});
+$("#mdlCurtain").click(function() {
+  mdlToggle();
+});
+$(".mdlClose").click(function() {
+  mdlToggle();
+});

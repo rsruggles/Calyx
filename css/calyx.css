@@ -11,6 +11,12 @@ header {
   border-bottom: 1px solid #e7e7e7;
 }
 
+body, html {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
@@ -40,6 +46,34 @@ li.menu-item a {
   text-decoration: none;
 }
 
+/* Document Modals */
+#mdlCurtain {
+  background-color: rgba(0, 0, 0, 0.90);
+  display: none;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.mdlContainer {
+  background-color: white;
+  display: inline-table;
+  left: 50%;
+  min-height: 250px;
+  min-width: 400px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1000;
+}
+.mdlClose {
+  z-index: 1001;
+}
+.mdlClose i {
+  float: right;
+}
 
 /* Utility Classes */
 .txt-left {
