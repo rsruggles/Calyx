@@ -48,14 +48,13 @@ li.menu-item a {
 
 /* Document Modals */
 #mdlCurtain {
-  background-color: rgba(0, 0, 0, 0.90);
-  display: block;
+  background-color: rgba(0, 0, 0, 0.80);
+  display: none;
   height: 100%;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
-  visibility: hidden;
   z-index: 999;
 }
 .mdlContainer {

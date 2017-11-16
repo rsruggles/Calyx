@@ -19,9 +19,14 @@ $(window).resize(function(){
 ////////////////////
 //  POP UP MODALS //
 ////////////////////
+var canToggle = true;
 function mdlToggle () {
-  event.stopPropagation();
-  $("#mdlCurtain").fadeToggle("slow", "linear");
+  // Prevent Firing twice
+  if (canToggle === true) {
+    $("#mdlCurtain").fadeToggle("fast", "linear");
+  } else {
+    canToggle = true;
+  }
 }
 $("#mdlOpen").click(function() {
   mdlToggle();
@@ -31,4 +36,8 @@ $("#mdlCurtain").click(function() {
 });
 $(".mdlClose").click(function() {
   mdlToggle();
+  canToggle = false;
+});
+$(".mdlContainer").click(function() {
+  canToggle = false;
 });
