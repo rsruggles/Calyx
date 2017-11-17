@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- Page Title -->
-    <title>Traditional Boiler</title>
+    <title>Calyx Boiler</title>
     
     <!-- FontAwesome CSS -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/husk.css">
     <!-- Website Styles -->
     <link rel="stylesheet" type="text/css" href="css/calyx.css">
-
+    <!-- jQuery Library -->
     <script src="js/jquery-3.2.1.min.js"></script>
   </head>
   
@@ -53,7 +53,9 @@
         <div class="container">
           <div class="col-12">
             <h1>Welcome to Calyx</h1>
-            <a id="mdlOpen" href="#">Open Modal</a>
+            <a class="mdlOpen" data-modal="modal-one" href="#">Open Modal 1</a>
+            <br />
+            <a class="mdlOpen" data-modal="modal-two" href="#">Open Modal 2</a>
           </div>
         </div>
       </div>
@@ -68,16 +70,28 @@
     </footer>
     
     <!-- Document Modals -->
-    <div id="mdlCurtain">      
-      <div class="mdlContainer">
+    <div id="mdlCurtain">
+      
+      <div id="modal-one" class="mdlContainer">
         <h3>
-          Modal Title
+          Modal 1 Title
           <a href="#" class="mdlClose"><i class="fa fa-times" aria-hidden="true"></i></a>
         </h3>
         <p>
-          This be the modal
+          This is text for Modal 1
         </p>
-      </div>    
+      </div>
+      
+      <div id="modal-two" class="mdlContainer">
+        <h3>
+          Modal 2 Title
+          <a href="#" class="mdlClose"><i class="fa fa-times" aria-hidden="true"></i></a>
+        </h3>
+        <p>
+          This is text for Modal 2
+        </p>
+      </div> 
+      
     </div>
     
     <!-- JavaScript Include -->

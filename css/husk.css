@@ -1,5 +1,5 @@
 /*  *******************
-    ** GRID BACKBONE **
+    ** HUSK BACKBONE **
     ******************* */
 
 /* Normalize Padding Behavior Site Wide */
@@ -48,7 +48,10 @@
 
 /* Desktop CSS Styles */
 @media only screen and (min-width: 881px) {
-  /* Place Holder */
+  /* Place Holder - for now
+     .col-1 through .col-12
+     are default column classes
+  */
 }
 
 /* Tablet CSS Styles */
@@ -69,6 +72,7 @@
 
 /* Mobile CSS Styles */
 @media only screen and (max-width: 680px) {
+  /* Default to full width */
   .col-1,
   .col-2,
   .col-3,
@@ -83,7 +87,7 @@
   .col-12 {
     width: 100%;
   }
-  
+  /* Or make specific rules for mobile */
   .sm-col-1  {width: 8.333%;}
   .sm-col-2  {width: 16.666%;}
   .sm-col-3  {width: 25%;}
@@ -96,7 +100,6 @@
   .sm-col-10 {width: 83.333%;}
   .sm-col-11 {width: 91.666%;}
   .sm-col-12 {width: 100%;}
-
 }
 
 

@@ -20,22 +20,25 @@ $(window).resize(function(){
 //  POP UP MODALS //
 ////////////////////
 var canToggle = true;
-function mdlToggle () {
+var dataMdl;
+function mdlToggle(dataModal) {
   // Prevent Firing twice
   if (canToggle === true) {
+    $(dataModal).toggle();
     $("#mdlCurtain").fadeToggle("fast", "linear");
   } else {
     canToggle = true;
   }
 }
-$("#mdlOpen").click(function() {
-  mdlToggle();
+$(".mdlOpen").click(function() {
+  dataMdl = "#" + $(this).data("modal");
+  mdlToggle(dataMdl);
 });
 $("#mdlCurtain").click(function() {
-  mdlToggle();
+  mdlToggle(dataMdl);
 });
 $(".mdlClose").click(function() {
-  mdlToggle();
+  mdlToggle(dataMdl);
   canToggle = false;
 });
 $(".mdlContainer").click(function() {

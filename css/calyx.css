@@ -59,7 +59,7 @@ li.menu-item a {
 }
 .mdlContainer {
   background-color: white;
-  display: inline-table;
+  display: none;
   left: 50%;
   min-height: 250px;
   min-width: 400px;
