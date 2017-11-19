@@ -40,7 +40,6 @@ li.menu-item {
 li.menu-item:hover {
   transition: all .2s ease-in;
   transition: all .2s ease-out;
-  background-color: #e7e7e7;
 }
 li.menu-item a {
   text-decoration: none;

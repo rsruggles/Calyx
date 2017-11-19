@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'petalglyphregular';
+  src: url('/fonts/petalglyphv1.5-webfont.woff2') format('woff2'),
+       url('/fonts/petalglyphv1.5-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.brand-text {
+  color: #5ebc64;
+  font-family: 'petalglyphregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.65em;
+  line-height: 70px;
+}
+
+/* Navigation */
+li.menu-item {
+  color: #5ebc64;
+}
+li.menu-item:hover {
+  background-color: #5ebc64;
+}
+li.menu-item a:visited {
+  color: #5ebc64;
+}
+li.menu-item a:hover {
+  color: #ffffff;
+}
