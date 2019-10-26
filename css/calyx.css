@@ -21,6 +21,14 @@ body {
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
+footer {
+  border-top: 1px solid #e7e7e7;
+  line-height: 45px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 /* HEADER LAYOUT STYLES */
 .img-brand {
   height: inherit;
@@ -165,6 +173,5 @@ li.menu-item a {
     margin-left: 0.9375em;
     margin-right: 0.9375em;
     max-width: 100%;
-  }
-  
-  }
+  }  
+}
