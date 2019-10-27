@@ -37,8 +37,10 @@ function hideModal() {
   canToggle = false;
   // Enable Scrolling
   $('html body').css('overflow-y', 'auto');
+  canToggle = true;
 }
 $(".mdlOpen").click(function() {
+
   dataMdl = "#" + $(this).data("modal");
   mdlToggle(dataMdl);
 });
@@ -49,5 +51,7 @@ $(".mdlClose").click(function() {
   hideModal();
 });
 $(".mdlContainer").click(function() {
-  hideModal();
+  canToggle =false;
+  // Disable Scrolling
+  $('html body').css('overflow-y', 'hidden');
 });

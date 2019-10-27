@@ -78,7 +78,7 @@ li.menu-item a {
   transform: translate(-50%,-50%);
   z-index: 1000;
 }
-.mdlClose {
+.mdlClose i {
   z-index: 1001;
 }
 .mdlClose i {
