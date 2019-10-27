@@ -24,9 +24,12 @@ body {
 footer {
   border-top: 1px solid #e7e7e7;
   line-height: 45px;
+  /* Make the sticky footer only sticky when
+     the document is shorter than the browser height.
   position: absolute;
   left: 0;
   bottom: 0;
+  */
 }
 
 /* HEADER LAYOUT STYLES */
