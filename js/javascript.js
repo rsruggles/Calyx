@@ -26,21 +26,28 @@ function mdlToggle(dataModal) {
   if (canToggle === true) {
     $(dataModal).toggle();
     $("#mdlCurtain").fadeToggle("fast", "linear");
+    // Disable Scrolling
+    $('html body').css('overflow-y', 'hidden');
   } else {
     canToggle = true;
   }
+}
+function hideModal() {
+  mdlToggle(dataMdl);
+  canToggle = false;
+  // Enable Scrolling
+  $('html body').css('overflow-y', 'auto');
 }
 $(".mdlOpen").click(function() {
   dataMdl = "#" + $(this).data("modal");
   mdlToggle(dataMdl);
 });
 $("#mdlCurtain").click(function() {
-  mdlToggle(dataMdl);
+  hideModal();
 });
 $(".mdlClose").click(function() {
-  mdlToggle(dataMdl);
-  canToggle = false;
+  hideModal();
 });
 $(".mdlContainer").click(function() {
-  canToggle = false;
+  hideModal();
 });
