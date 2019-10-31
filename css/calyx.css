@@ -118,14 +118,80 @@ li.menu-item a {
   text-align: center;
 }
 
-.text-right {
+.txt-right {
   text-align: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
 }
 
 .full-width {
   width: 100%;
+  display: block;
 }
 
+.txt-justify {
+    text-align: justify;
+}
+
+.txt-uppercase {
+    text-transform: uppercase;
+}
+
+.dotted-borders {
+    border: dotted 2px;
+}
+
+.hide-element {
+    display: none;
+}
+
+.button {
+    padding: 1px;
+    text-align: center;
+    display: inline-block;
+}
+
+.slim {
+    margin: 0;
+    padding: 0;
+}
+
+.codeblock {
+        display: inline-block;
+        padding: 0.5em 1em;
+        border: 1px solid #000000; /*White*/
+        background-color: #513b56; /*Charcoal*/
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.superscript {
+    vertical-align: super;
+}
+
+.subscript {
+    vertical-align: sub;
+}
 
 /* DESKTOP CSS STYLES */
 @media only screen and (min-width: 681px) {
