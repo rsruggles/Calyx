@@ -1,3 +1,15 @@
+/* General */
+html, body {
+  background-color: #f7f2f4;
+  color: #252627;
+}
+
+a, a:visited, a:active {
+  color: #5EBC64;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 /* Navigation */
 li.menu-item {
   color: #5ebc64;
