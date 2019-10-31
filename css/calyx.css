@@ -193,6 +193,10 @@ li.menu-item a {
     vertical-align: sub;
 }
 
+.highlight {
+    background-color: yellow;
+}
+
 /* DESKTOP CSS STYLES */
 @media only screen and (min-width: 681px) {
   ul.menu {
