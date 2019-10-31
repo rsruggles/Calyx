@@ -10,6 +10,14 @@ a, a:visited, a:active {
   text-decoration: none;
 }
 
+table tr td {
+  padding: 5px;
+}
+
+header, footer {
+  background-color: #e8ffe9;
+}
+
 /* Navigation */
 li.menu-item {
   color: #5ebc64;
