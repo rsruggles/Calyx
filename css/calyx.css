@@ -6,9 +6,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -31,7 +28,7 @@ header, footer {
 }
 
 header {
-  height: 70px;
+  height: 4.375em;
   border-bottom: 1px solid #e7e7e7;
 }
 
@@ -47,7 +44,8 @@ body {
 
 footer {
   border-top: 1px solid #e7e7e7;
-  line-height: 45px;
+  line-height: 2.8125em;
+  margin-top: 1.5em;
   /* Make the sticky footer only sticky when
      the document is shorter than the browser height.
   position: absolute;
@@ -61,6 +59,10 @@ footer {
   height: inherit;
   display: inline-block;
   line-height: 4.375em;
+}
+
+nav ol, nav ul {
+  margin: 0;
 }
 
 nav {
@@ -77,6 +79,7 @@ li.menu-item:hover {
   transition: all .2s ease-out;
 }
 li.menu-item a {
+  font-size: 1em;
   text-decoration: none;
 }
 
@@ -97,6 +100,8 @@ li.menu-item a {
   left: 50%;
   min-height: 15em;
   min-width: 25em;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
   position: absolute;
   top: 50%;
   transform: translate(-50%,-50%);
@@ -124,6 +129,40 @@ li.menu-item a {
 
 .full-width {
   width: 100%;
+}
+
+
+/* TYPOGRAPHY */
+h1, h2, h3,
+h4, h5, h6,
+p, ul, ol {
+  margin-top: 0.65em;
+  margin-bottom: 0.5em;
+}
+html, body {
+  font-size: 1em;
+}
+ul, ol {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.75em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+ font-size: 1.25em; 
+}
+h5 {
+  font-size: 1.05em;
+}
+h6 {
+  font-size: .9em;
 }
 
 
@@ -170,7 +209,7 @@ li.menu-item a {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 70px;
+    top: 4.375em;
   }
   ul.menu {
     display: none;
@@ -200,5 +239,10 @@ li.menu-item a {
     margin-left: 0.9375em;
     margin-right: 0.9375em;
     max-width: 100%;
-  }  
+  }
+  
+  /* Typography */
+  html, body {
+    font-size: .9em;
+  }
 }
