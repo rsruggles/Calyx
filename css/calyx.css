@@ -171,7 +171,10 @@ li.menu-item a {
         display: inline-block;
         padding: 0.5em 1em;
         border: 1px solid #000000; /*White*/
+        color: #eee;
         background-color: #513b56; /*Charcoal*/
+        font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New; 
+
 }
 
 .bold {

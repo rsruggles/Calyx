@@ -166,6 +166,10 @@
             <ul>
               <li>Make & implement list of useful utlity classes for doing common tasks (aligning text, centering text/objects, mobile responsive images, etc.)</li>
               <li>Documentation & Examples</li>
+              <li>Make floats their own row</li>
+              <li>Fix subscript and superscript</li>
+              <li>Style 'button'</li>
+              <li>Slim should remove padding</li>
             </ul>
               <table>
                 <tr>
@@ -173,32 +177,35 @@
                   <td class="dotted-borders utility-description">Aligns text left.</td>
                   <td class="separate"></td>
                   <td class="dotted-borders utility-name">.txt-center</td>
-                  <td class="dotted-borders utility-description">Aligns text in center.</td>
+                  <td class="dotted-borders utility-description txt-center" style=>Aligns text in center.</td>
                 </tr>
                 <tr>
                   <td class="dotted-borders utility-name">.txt-right</td>
-                  <td class="dotted-borders utility-description">Aligns text right.</td>
+                  <td class="dotted-borders utility-description txt-right">Aligns text right.</td>
                   <td class="separate"></td>
                   <td class="dotted-borders utility-name">.float-left</td>
-                  <td class="dotted-borders utility-description">Pushes object all the way to the left.</td>
+                  <td class="dotted-borders utility-description float-left">Pushes object all the way to the left.</td>
                 </tr>
                 <tr>
                   <td class="dotted-borders utility-name">.float-right</td>
-                  <td class="dotted-borders utility-description">Pushes object all the way to the right.</td>
+                  <td class="dotted-borders utility-description float-right">Pushes object all the way to the right.</td>
                   <td class="separate"></td>
                   <td class="dotted-borders utility-name">.full-width</td>
                   <td class="dotted-borders utility-description">Object will span full width of screen.</td>
                 </tr>    
                 <tr>
                   <td class="dotted-borders utility-name">.txt-justify</td>
-                  <td class="dotted-borders utility-description">Lines up the end of<br>each line neatly.</td>
+                  <td class="dotted-borders utility-description txt-justify">Lines up the end of<br>each line neatly.</td>
                   <td class="separate"></td>
                   <td class="dotted-borders utility-name">.txt-uppercase</td>
                   <td class="dotted-borders utility-description">ALL UPPERCASE</td>
                 </tr>
                 <tr>
                   <td class="dotted-borders utility-name">.dotted-borders</td>
-                  <td class="dotted-borders utility-description">Surrounds object with a dotted border.</td>
+                  <td class="dotted-borders utility-description">
+                      <div class="dotted-borders">
+                        Surrounds object with a dotted border.
+                      </div></td>
                   <td class="separate"></td>
                   <td class="dotted-borders utility-name">.hide-element</td>
                   <td class="dotted-borders utility-description">
@@ -212,38 +219,38 @@
                 </tr>
                 <tr>
                   <td class="dotted-borders utility-name">.button</td>
-                  <td class="dotted-borders utility-description">Adds a button</td>
+                  <td class="dotted-borders utility-description button">Adds a button</td>
                   <td class="separate"></td>
                   <td class="dotted-borders utility-name">.slim</td>
-                  <td class="dotted-borders utility-description">Removes margin and padding.</td>
+                  <td class="dotted-borders utility-description slim">Removes margin and padding.</td>
                 </tr>
                 <tr>
                   <td class="dotted-borders utility-name">.codeblock</td>
-                  <td class="dotted-borders utility-description">Surrounds text in codeblock.</td>
+                  <td class="dotted-borders utility-description codeblock">[Surrounds text in codeblock.]</td>
                   <td class="separate"></td>
                   <td class="dotted-borders utility-name">.bold</td>
-                  <td class="dotted-borders utility-description">Bold text</td>
+                  <td class="dotted-borders utility-description bold">Bold text</td>
                 </tr>
                 <tr>
                   <td class="dotted-borders utility-name">.italic</td>
-                  <td class="dotted-borders utility-description">Italic text</td>
+                  <td class="dotted-borders utility-description italic">Italic text</td>
                   <td class="separate"></td>
                   <td class="dotted-borders utility-name">.strikethrough</td>
-                  <td class="dotted-borders utility-description">Strikethrough text</td>
+                  <td class="dotted-borders utility-description strikethrough">Strikethrough text</td>
                 </tr>    
                 <tr>
                   <td class="dotted-borders utility-name">.underline</td>
-                  <td class="dotted-borders utility-description">Underline text</td>
+                  <td class="dotted-borders utility-description underline">Underline text</td>
                   <td class="separate"></td>
                   <td class="dotted-borders utility-name">.superscript</td>
-                  <td class="dotted-borders utility-description">Superscript text</td>
+                  <td class="dotted-borders utility-description superscript">Superscript text</td>
                 </tr>
                 <tr>
                   <td class="dotted-borders utility-name">.subscript</td>
-                  <td class="dotted-borders utility-description">Subscript text</td>
+                  <td class="dotted-borders utility-description subscript">Subscript text</td>
                   <td class="separate"></td>
                   <td class="dotted-borders utility-name">.highlight</td>
-                  <td class="dotted-borders utility-description">Highlight with yellow</td>
+                  <td class="dotted-borders utility-description highlight">Highlight with yellow</td>
                 </tr>
               </table>
           </div>
