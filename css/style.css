@@ -51,16 +51,17 @@ li.menu-item a:hover {
   width: 230px;
 }
 
+.utility-name, .utility-description {
+  padding: 10px;
+  border: solid 2px lightgray;
+}
+
 #nothing figure{
   display: none;
   position: absolute;
 }
 
-#nothing img {
-  display: block;
-}
-
-#nothing:focus figure,
+#nothing img, #nothing:focus figure,
 #nothing:hover figure {
   display: block;
 }
