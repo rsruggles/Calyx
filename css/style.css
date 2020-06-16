@@ -35,3 +35,33 @@ li.menu-item a:hover {
   max-width: 7.25em;
   margin-top: 0.75em;
 }
+
+.separate {
+  width: 75px;
+  border-top: none;
+  border-bottom: none;
+}
+
+.utility-name {
+  font-weight: bold;
+  width: 100px;
+}
+
+.utility-description {
+  width: 230px;
+}
+
+.utility-name, .utility-description {
+  padding: 10px;
+  border: solid 2px lightgray;
+}
+
+#nothing figure{
+  display: none;
+  position: absolute;
+}
+
+#nothing img, #nothing:focus figure,
+#nothing:hover figure {
+  display: block;
+}
